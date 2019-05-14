@@ -1,6 +1,17 @@
+###Imputation for microarray data..original KNN
+
+
 ##bioconductor impute for KNN
 #if (!requireNamespace("BiocManager", quietly = TRUE))
 #  +     install.packages("BiocManager")
+
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+#BiocManager::install("impute")
+
+## try http:// if https:// URLs are not supported
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("impute")
 
 library(impute)
 rm(list = ls(all = T))
